@@ -110,6 +110,9 @@ X2 = np.array([[3.43323051, -4.68184123], [2.59748185, -0.61500731],
 Input = np.concatenate([X1, X2], 0)
 Output = np.concatenate([np.matrix(np.zeros([100, 1])), np.matrix(np.ones([100, 1]))])
 
+# ([0][100], [1][100])
+# [0,1]
+
 '''
 Step 1: Construct TF graph
 '''
